@@ -2,11 +2,26 @@
 
 This repository contains the implementation, analysis, and experimentation of several well-known clustering algorithms as part of the **COMP 6651: Algorithm Design Techniques** course at Concordia University (Winter 2025).
 
-## 📁 Project Structure
-├── datasets/ # Contains the datasets used in Part II of the project 
-├── scripts/ # Contains implementation of clustering algorithms and evaluation scripts 
-├── report_part1/ # Academic report for Part I (optional subfolder) 
-├── report_part2/ # Academic report for Part II (optional subfolder)
+## 📁 Directory Structure
+
+```
+├── datasets/
+│   ├── AI_index_db.csv
+│   ├── earthquakes_column_descriptors.txt
+│   ├── earthquakes.csv
+│   └── iris.csv
+
+├── scripts/
+│   ├── 01-dbscan.ipynb
+│   ├── 02-optics.ipynb
+│   ├── 03-gmm.ipynb
+│   ├── 04-kmeans.ipynb
+│   ├── 05-kmedoids.ipynb
+│   ├── 06-affinity.ipynb
+│   ├── 07-mean-shift.ipynb
+│   ├── 08-birch.ipynb
+│   └── 09-agglomerative.ipynb
+```
 
 
 ## 📌 Project Objectives
