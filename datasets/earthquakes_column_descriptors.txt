@@ -1,0 +1,44 @@
+Column Descriptors:
+id: Unique identifier for each earthquake event.
+magnitude: The strength of the earthquake on the Richter scale.
+type: Type of seismic event (earthquake, explosion, etc.).
+title: Title of the earthquake event (place and magnitude).
+date: Date when the earthquake occurred.
+time: Time when the earthquake occurred.
+updated: Last updated timestamp for the event.
+url: Link to the earthquake event's details.
+detailUrl: Additional details URL.
+felt: Number of people who reported feeling the earthquake.
+cdi: Community Determined Intensity, how strongly the event was felt.
+mmi: Modified Mercalli Intensity, scale used to measure earthquake intensity.
+alert: Alert level (green, yellow, orange, red).
+status: Status of the event (reviewed, automatic).
+tsunami: Tsunami risk flag (0 = no risk, 1 = risk).
+sig: Significance of the earthquake, based on magnitude and impact.
+net: Network that detected the earthquake.
+code: Code assigned by the network.
+ids: IDs of other events related to the same earthquake.
+sources: Data sources for the event.
+types: Event types associated with the earthquake.
+nst: Number of seismic stations that recorded the event.
+dmin: Minimum distance to the earthquake event.
+rms: Root mean square of signal, used to measure earthquake intensity.
+gap: Data gap between stations detecting the earthquake.
+magType: Type of magnitude (e.g., mb, Ms).
+geometryType: Type of geometry for the location (usually "Point").
+depth: Depth of the earthquake in kilometers.
+latitude: Latitude of the earthquake's epicenter.
+longitude: Longitude of the earthquake's epicenter.
+place: General location description of the earthquake.
+distanceKM: Distance from the nearest populated place in kilometers.
+placeOnly: Flag indicating if only place information is available.
+location: Full address or description of the earthquake's location.
+continent: Continent where the earthquake occurred.
+country: Country where the earthquake occurred.
+subnational: Subnational region where the earthquake occurred.
+city: City closest to the earthquake.
+locality: Locality or neighborhood name.
+postcode: Postal code of the affected area.
+what3words: Unique 3-word code representing the location.
+timezone: Timezone of the earthquake.
+locationDetails: Additional details about the earthquake’s location.
