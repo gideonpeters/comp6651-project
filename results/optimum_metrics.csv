@@ -1,3 +1,3 @@
-,,n_clusters,linkage,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Index,Adjusted Rand Index (ARI),Homogeneity,Completeness,V-Measure
-global_earthquake,Best Parameters,4.0,average,,,,,,,
-global_earthquake,Best Metrics,,,-0.003395844377488791,6.475043198667912,6.100581382495262,0.21018955702785674,0.8267508783197015,0.3292713478548897,0.47096910402037295
+,,damping,preference,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Index,Adjusted Rand Index (ARI),Homogeneity,Completeness,V-Measure
+iris,Best Parameters,0.9,-50.0,,,,,,,
+iris,Best Metrics,,,0.4579479356469011,0.8405212580185485,237.13089666683337,1.0,1.0,1.0,1.0
