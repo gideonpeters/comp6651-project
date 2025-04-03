@@ -1,0 +1,7 @@
+dataset,type,metric,silhouette,runtime,cluster_count,noise_count
+iris,custom,euclidean,0.3491981656526392,0.004562854766845703,2,35
+iris,sklearn,euclidean,0.3491981656526392,0.001493215560913086,2,35
+ai_global_index,custom,precomputed,0.1804509348136241,0.0008399486541748047,3,31
+ai_global_index,sklearn,precomputed,,0.0009250640869140625,1,0
+global_earthquake,custom,precomputed,0.17848356805245177,0.0012450218200683594,3,29
+global_earthquake,sklearn,precomputed,,0.000762939453125,1,0
