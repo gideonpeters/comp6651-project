@@ -110,6 +110,9 @@ def visualize_clusters(X, labels, title, output_dir='./../results/images', saveA
         title (str): Title for the plot.
     """
     # Reduce dimensionality if needed.
+    if np.any(np.isnan(X)) or np.any(np.isinf(X)):
+        print("Data contains NaN or infinite values, replacing them.")
+        X = np.nan_to_num(X, nan=0, posinf=0, neginf=0) 
     if X.shape[1] > 2:
         pca = PCA(n_components=2)
         X_vis = pca.fit_transform(X)
